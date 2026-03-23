@@ -2,7 +2,9 @@
 
 ## 📚 Initial Instructions for Students
 
-This repository is the official starting point for all course projects. ### 📏 Note on Project Sizes & Group Dynamics
+This repository is the official starting point for all course projects. 
+
+### 📏 Note on Project Sizes & Group Dynamics
 The "Suggested Size" (Small, Medium, Large) is a rough estimate of the workload, mapping approximately to group sizes of 1, 2, and 3 members. However, these are just recommendations! 
 - A 3-person group selecting a "Small" project will be expected to complete all **Extra Objectives** and demonstrate a higher level of polish and depth. 
 - Conversely, a solo student who ambitiously selects a "Large" project will be evaluated with adapted expectations regarding the breadth of completed tasks.
@@ -46,7 +48,7 @@ This file contains the list of available projects, complete details for each pro
 | 20 | [Image & Language Representation Learning](#project-20) | Vision & Language | Medium | MS-COCO | Free |
 | 21 | [Deep Reinforcement Learning for Frame Selection in Video](#project-21) | Reinforcement Learning | Large | UCF101 | Free |
 | 22 | [Learn to Play Super Mario Bros with Deep Reinforcement Learning](#project-22) | Reinforcement Learning | Large | Super Mario Bros Environment | Free |
-| 23 | [Align a Small LLM with GRPO for Strict Code or JSON Generation](#project-23) | Reinforcement Learning | Large | Synthetic Logic Array | Free |
+| 23 | [Align a Small LLM with GRPO for Strict Code or JSON Generation](#project-23) | Reinforcement Learning | Medium | Synthetic Logic Array | Free |
 
 ## Detailed Project Descriptions
 
@@ -568,7 +570,7 @@ Analyzing raw 60 FPS video creates debilitating computational bloat, much of it 
 
 <a id='project-22'></a>
 ### Track 22: Learn to Play Super Mario Bros with Deep Reinforcement Learning
-**Suggested Size**: Large  
+**Suggested Size**: Medium  
 **Reference Module**: Reinforcement Learning  
 
 #### Problem Description
