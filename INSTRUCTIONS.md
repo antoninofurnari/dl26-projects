@@ -38,7 +38,7 @@ This file contains the list of available projects, complete details for each pro
 | 10 | [Contrastive Learning for Video Representation (SimCLR)](#project-10) | Self-Supervised Learning | Small | UCF-101 | G16 |
 | 11 | [Masked Autoencoders for Image Representation Learning](#project-11) | Self-Supervised Learning | Small | ImageNet 1K | G21 |
 | 12 | [Clustering-based SSL for Action Discovery](#project-12) | Self-Supervised Learning | Medium | Kinetics-400 | Free |
-| 13 | [Temporal Action Segmentation from Video](#project-13) | Video Understanding | Small | EGTEA Gaze+ | Free |
+| 13 | [Temporal Action Segmentation from Video](#project-13) | Video Understanding | Small | EGTEA Gaze+ | G26 |
 | 14 | [Action Anticipation from Video](#project-14) | Video Understanding | Medium | EPIC-KITCHENS | Le larunghie |
 | 15 | [Vision-Language Alignment with CLIP for Video](#project-15) | Vision & Language | Medium | EPIC-KITCHENS | Justgood AI |
 | 16 | [Multimodal Action Recognition – Video + Audio](#project-16) | Video Understanding | Large | EPIC-KITCHENS | Free |
