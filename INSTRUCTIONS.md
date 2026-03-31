@@ -45,7 +45,7 @@ This file contains the list of available projects, complete details for each pro
 | 17 | [Egocentric Video + Gaze for Action Recognition](#project-17) | Video Understanding | Large | EGTEA Gaze+ | The Outliers 2.0 |
 | 18 | [State-Space Models (Mamba) for Mistake Detection](#project-18) | Advanced Sequential Modeling | Large | Assembly101 | LeMeCla |
 | 19 | [Transformer vs RNN for Procedural Video Understanding](#project-19) | Advanced Sequential Modeling | Medium | EGO4D Goal-Step | Free |
-| 20 | [Image & Language Representation Learning](#project-20) | Vision & Language | Medium | MS-COCO | Free |
+| 20 | [Image & Language Representation Learning](#project-20) | Vision & Language | Medium | MS-COCO | G37 |
 | 21 | [Deep Reinforcement Learning for Frame Selection in Video](#project-21) | Reinforcement Learning | Large | UCF101 | Free |
 | 22 | [Learn to Play Super Mario Bros with Deep Reinforcement Learning](#project-22) | Reinforcement Learning | Medium | Super Mario Bros Environment | G20 |
 | 23 | [Align a Small LLM with GRPO for Strict Code or JSON Generation](#project-23) | Reinforcement Learning | Medium | Synthetic Logic Array | G23 |
