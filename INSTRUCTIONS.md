@@ -50,6 +50,7 @@ This file contains the list of available projects, complete details for each pro
 | 22 | [Learn to Play Super Mario Bros with Deep Reinforcement Learning](#project-22) | Reinforcement Learning | Medium | Super Mario Bros Environment | G20 |
 | 23 | [Align a Small LLM with GRPO for Strict Code or JSON Generation](#project-23) | Reinforcement Learning | Medium | Synthetic Logic Array | G23 |
 | 24 | [Cross-Modal Knowledge Distillation (Audio to Vision)](#project-24) | Knowledge Distillation | Large | VGGSound | Zero e Uno |
+| 25 | [Learn to Drive a car with Reinforcement Learning](#project-25) | Reinforcement Learning | Large | Assetto Corsa Gym | FiCo |
 
 ## Detailed Project Descriptions
 
@@ -636,6 +637,26 @@ In many real-world edge settings, deploying multi-modal sensors is expensive or 
 - Enforce strict dimensional alignment using Contrastive cross-modal distillation between audio and video embeddings.
 - Implement a temporal 3D CNN or a Video Transformer as the visual teacher to account for longitudinal temporal dynamics.
 - Explore and benchmark lightweight alternatives to AST.
+
+<a id='project-25'></a>
+### Learn to Drive a car with Reinforcement Learning
+**Suggested Size**: Large  
+**Reference Module**: Reinforcement Learning  
+
+#### Problem Description
+Using Assetto Corsa, a popular symracing game train a Neural Network to follow the AI_line: the line that the CPU use to know the path to follow when playing against a player offline.
+
+#### Dataset
+We found this project on GitHub that implements the interface to let the code interact with the game.
+
+- **Assetto Corsa Gym** (Gym Implementation: https://github.com/dasGringuen/assetto_corsa_gym).
+
+While Assetto Corsa gives API to access game information, it's not as easy to control the game. So the workaround consists in using vJoy, a virtual controller that can be controlled trough python. 
+
+#### Objective
+
+Compare the trained model with the PID approach developed in https://github.com/Igni-ss/CarController
+
 
 ---
 
