@@ -51,6 +51,7 @@ This file contains the list of available projects, complete details for each pro
 | 23 | [Align a Small LLM with GRPO for Strict Code or JSON Generation](#project-23) | Reinforcement Learning | Medium | Synthetic Logic Array | G23 |
 | 24 | [Cross-Modal Knowledge Distillation (Audio to Vision)](#project-24) | Knowledge Distillation | Large | VGGSound | Zero e Uno |
 | 25 | [Learn to Drive a car with Reinforcement Learning](#project-25) | Reinforcement Learning | Large | Assetto Corsa Gym | FiCo |
+| 26 | [Graph-based Metric Learning for Scene Understanding with Semantic Web Technologies](#project-26) | Metric Learning | Large | GQA | Fly Now|
 
 ## Detailed Project Descriptions
 
@@ -657,6 +658,32 @@ While Assetto Corsa gives API to access game information, it's not as easy to co
 
 Compare the trained model with the PID approach developed in https://github.com/Igni-ss/CarController
 
+<a id='project-26'></a>
+### Project 26: Graph-based Metric Learning for Scene Understanding with Semantic Web Technologies
+**Suggested Size**: Large  
+**Reference Module**: Metric Learning  
+
+#### Problem Description
+Images exist as a rich tapestry of interrelated objects, yet standard CNN architectures often reduce this to a single flat vector. This project aims to represent complex scenes structurally as graphs, where nodes are objects and edges describe their spatial or semantic relationships. By learning dynamic embeddings of these graphs, you will create a system capable of robust scene-to-scene retrieval based on compositional similarity rather than just pixel-level textures. 
+
+To achieve this, the project will specifically integrate Semantic Web technologies, such as **OWL** and the **Virtuoso Triple Store**, to manage and enrich the representation of the Scene Graphs before they are provided to the neural network. Furthermore, the final goal is to host the entire retrieval system and infrastructure on a Cloud architecture.
+
+#### Dataset
+- **GQA** ([https://cs.stanford.edu/people/dorarad/gqa/download.html](https://cs.stanford.edu/people/dorarad/gqa/download.html)) or a subset.
+- 100K images, utilizing provided scene graphs and localized scene labels.
+
+#### Minimum Objectives
+1. **Baseline**: A standard CNN processing the raw image to predict the scene label/embedding, ignoring the explicit graph structure.
+2. **Semantic Knowledge Integration**: Utilize OWL and Virtuoso Triple Store to store, manage, and semantically enrich the scene graphs extracted from the dataset.
+3. **Graph Encoder**: Implement a Graph Convolutional Network (GCN) that ingests the enriched ground truth scene graphs (nodes and edges) resulting in a unified scene embedding.
+4. **Contrastive Training**: Train the embeddings using contrastive (or triplet) loss so that paired graphs from similar scenarios (e.g., identical activity and place) cluster tightly.
+5. **Retrieval Evaluation**: Given a query scene graph, perform retrieval on the dataset to fetch structurally similar graphs, evaluating via standard classification metrics (Accuracy, Precision, Recall).
+
+#### Extra Objectives
+- **Cloud Infrastructure**: Deploy and host the entire system (including the Triple Store and the neural network inference model) on a Cloud architecture.
+- Test robustness to structural perturbations (e.g., artificially drop nodes/edges from test graphs to see if retrieval degrades).
+- Build a dynamic graph extractor: utilize Vision-Language Models (VLMs) or Object Trackers to automatically extract scene graphs from raw videos instead of relying on ground truth.
+- Visualize and interpret which edges/relations act as critical focal points for the model's similarity metric.
 
 ---
 
