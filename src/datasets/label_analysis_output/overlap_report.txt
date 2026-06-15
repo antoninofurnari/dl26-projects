@@ -1,0 +1,255 @@
+============================================================
+SEMANTIC CLASS OVERLAP REPORT
+============================================================
+
+── HMDB-51 → Kinetics (Top 3 match per classe) ──
+
+  brush_hair                →
+      0.601 ████████████         brushing hair
+      0.500 ██████████           brush painting
+      0.471 █████████            braiding hair
+  cartwheel                 →
+      0.429 ████████             cartwheeling
+      0.304 ██████               changing wheel
+      0.250 █████                archery
+  catch                     →
+      0.286 █████                hopscotch
+      0.278 █████                catching fish
+      0.250 █████                archery
+  chew                      →
+      0.273 █████                archery
+      0.250 █████                waxing chest
+      0.222 ████                 news anchoring
+  clap                      →
+      0.333 ██████               clapping
+      0.250 █████                capoeira
+      0.250 █████                slapping
+  climb                     →
+      0.294 █████                ice climbing
+      0.278 █████                climbing tree
+      0.278 █████                rock climbing
+  climb_stairs              →
+      0.320 ██████               climbing tree
+      0.316 ██████               tai chi
+      0.296 █████                climbing ladder
+  dive                      →
+      0.231 ████                 skydiving
+      0.200 ████                 dining
+      0.200 ████                 driving car
+  draw_sword                →
+      0.417 ████████             sword fighting
+      0.240 ████                 sled dog racing
+      0.235 ████                 drawing
+  dribble                   →
+      0.227 ████                 sled dog racing
+      0.222 ████                 bobsledding
+      0.222 ████                 dribbling basketball
+  drink                     →
+      0.385 ███████              drinking
+      0.333 ██████               drawing
+      0.278 █████                drinking beer
+  eat                       →
+      0.250 █████                squat
+      0.250 █████                vault
+      0.231 ████                 beatboxing
+  fall_floor                →
+      0.458 █████████            cleaning floor
+      0.384 ███████              mopping floor
+      0.384 ███████              sanding floor
+  fencing                   →
+      0.316 ██████               breakdancing
+      0.316 ██████               faceplanting
+      0.308 ██████               crying
+  flic_flac                 →
+      0.250 █████                slacklining
+      0.227 ████                 catching fish
+      0.222 ████                 kicking field goal
+  golf                      →
+      0.500 ██████████           golf driving
+      0.500 ██████████           golf putting
+      0.485 █████████            golf chipping
+  handstand                 →
+      0.318 ██████               shaking hands
+      0.318 ██████               washing hands
+      0.278 █████                bandaging
+  hit                       →
+      0.300 ██████               tai chi
+      0.250 █████                situp
+      0.250 █████                whistling
+  hug                       →
+      0.300 ██████               hugging
+      0.273 █████                hurdling
+      0.250 █████                lunge
+  jump                      →
+      0.558 ███████████          high jump
+      0.558 ███████████          long jump
+      0.517 ██████████           triple jump
+  kick                      →
+      0.558 ███████████          high kick
+      0.558 ███████████          side kick
+      0.250 █████                drop kicking
+  kick_ball                 →
+      0.446 ████████             kicking soccer ball
+      0.444 ████████             high kick
+      0.439 ████████             throwing ball
+  kiss                      →
+      0.364 ███████              kissing
+      0.250 █████                making sushi
+      0.231 ████                 side kick
+  laugh                     →
+      0.385 ███████              laughing
+      0.300 ██████               lunge
+      0.267 █████                applauding
+  pick                      →
+      0.250 █████                drop kicking
+      0.250 █████                tickling
+      0.235 ████                 picking fruit
+  pour                      →
+      0.364 ███████              parkour
+      0.250 █████                capoeira
+      0.214 ████                 pole vault
+  pullup                    →
+      0.429 ████████             pull ups
+      0.308 ██████               push up
+      0.191 ███                  playing ukulele
+  punch                     →
+      0.294 █████                punching bag
+      0.250 █████                push up
+      0.231 ████                 shot put
+  push                      →
+      0.614 ████████████         push up
+      0.333 ██████               shot put
+      0.267 █████                pushing car
+  pushup                    →
+      0.462 █████████            push up
+      0.286 █████                pull ups
+      0.286 █████                shot put
+  ride_bike                 →
+      0.489 █████████            riding a bike
+      0.401 ████████             riding mountain bike
+      0.333 ██████               side kick
+  ride_horse                →
+      0.375 ███████              grooming horse
+      0.320 ██████               riding or walking with horse
+      0.250 █████                crossing river
+  run                       →
+      0.273 █████                krumping
+      0.250 █████                lunge
+      0.231 ████                 barbequing
+  shake_hands               →
+      0.583 ███████████          shaking hands
+      0.500 ██████████           washing hands
+      0.348 ██████               shaking head
+  shoot_ball                →
+      0.471 █████████            throwing ball
+      0.366 ███████              kicking soccer ball
+      0.358 ███████              juggling soccer ball
+  shoot_bow                 →
+      0.352 ███████              tying bow tie
+      0.294 █████                shot put
+      0.250 █████                blowing out candles
+  shoot_gun                 →
+      0.353 ███████              shot put
+      0.261 █████                drinking shots
+      0.261 █████                riding scooter
+  sit                       →
+      0.375 ███████              situp
+      0.250 █████                squat
+      0.231 ████                 snowkiting
+  situp                     →
+      1.000 ████████████████████ situp
+      0.250 █████                push up
+      0.214 ████                 high jump
+  smile                     →
+      0.250 █████                sailing
+      0.250 █████                smoking
+      0.250 █████                triple jump
+  smoke                     →
+      0.333 ██████               smoking
+      0.267 █████                snorkeling
+      0.210 ████                 smoking hookah
+  somersault                →
+      0.435 ████████             somersaulting
+      0.300 ██████               pole vault
+      0.267 █████                vault
+  stand                     →
+      0.278 █████                blasting sand
+      0.250 █████                sailing
+      0.235 ████                 waxing chest
+  swing_baseball            →
+      0.567 ███████████          hitting baseball
+      0.426 ████████             swing dancing
+      0.402 ████████             catching or throwing baseball
+  sword                     →
+      0.513 ██████████           sword fighting
+      0.294 █████                snowboarding
+      0.222 ████                 skateboarding
+  sword_exercise            →
+      0.417 ████████             sword fighting
+      0.323 ██████               exercising with an exercise ball
+      0.250 █████                exercising arm
+  talk                      →
+      0.210 ████                 walking the dog
+      0.182 ███                  dunking basketball
+      0.182 ███                  parkour
+  throw                     →
+      0.544 ██████████           hammer throw
+      0.528 ██████████           javelin throw
+      0.294 █████                throwing axe
+  turn                      →
+      0.267 █████                kitesurfing
+      0.250 █████                hurdling
+      0.231 ████                 trapezing
+  walk                      →
+      0.222 ████                 vault
+      0.210 ████                 walking the dog
+      0.200 ████                 milking cow
+  wave                      →
+      0.222 ████                 blowing leaves
+      0.188 ███                  water skiing
+      0.182 ███                  archery
+
+── UCF-101 → Kinetics (Top 3 match per classe) ──
+
+  CricketShot               →
+      0.467 █████████            shot put
+      0.463 █████████            playing cricket
+      0.308 ██████               drinking shots
+  PlayingCello              →
+      1.000 ████████████████████ playing cello
+      0.551 ███████████          playing chess
+      0.546 ██████████           playing kickball
+  Punch                     →
+      0.294 █████                punching bag
+      0.250 █████                push up
+      0.231 ████                 shot put
+  ShavingBeard              →
+      0.607 ████████████         shaving head
+      0.592 ███████████          trimming or shaving beard
+      0.527 ██████████           shaving legs
+  TennisSwing               →
+      0.551 ███████████          playing tennis
+      0.367 ███████              swing dancing
+      0.304 ██████               doing nails
+
+── Statistiche ──
+
+  HMDB-51 → Kinetics  similarità media best-match: 0.387
+  UCF-101 → Kinetics  similarità media best-match: 0.584
+
+  Classi HMDB con score ≥ 0.5 verso Kinetics: 10/51
+    1.000  situp
+    0.614  push
+    0.601  brush_hair
+    0.583  shake_hands
+    0.567  swing_baseball
+    0.558  jump
+    0.558  kick
+    0.544  throw
+    0.513  sword
+    0.500  golf
+
+  Classi UCF con score ≥ 0.5 verso Kinetics: 3/5
+    1.000  PlayingCello
+    0.607  ShavingBeard
+    0.551  TennisSwing
