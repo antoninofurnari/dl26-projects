@@ -1,0 +1,24 @@
+# Objective 1 — Baseline: train on union of sources, no domain adaptation,
+# zero-shot evaluation on the target to expose the domain shift.
+mode: baseline
+run_name: baseline_in
+
+# data
+features_root: features_imagenet
+sources: [hmdb51, ucf101]
+target: kinetics
+batch_size: 64
+num_workers: 4
+
+# model
+embed_dim: 256
+
+# optimisation
+lr: 0.001
+weight_decay: 0.0005
+steps: 3000
+log_every: 100
+
+# misc
+seed: 42
+ckpt_dir: experiments/checkpoints

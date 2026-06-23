@@ -2,6 +2,7 @@ name: dl-project
 channels:
   - pytorch
   - nvidia
+<<<<<<< HEAD
   - defaults
 dependencies:
   - python=3.10
@@ -20,3 +21,19 @@ dependencies:
       - tensorboard
       - tqdm
       # Add other pip-only packages here
+=======
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch>=2.0
+  - torchvision>=0.15
+  - pytorch-cuda=11.8
+  - numpy
+  - pyyaml
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - pip
+  - pip:
+      - av            # video decoding backend for torchvision.io.read_video
+>>>>>>> origin/risultati-finali

@@ -1,0 +1,32 @@
+# Objectives 2-3 — Multi-source DA: shared encoder + per-source classifiers +
+# adversarial domain discriminator (GRL) + weighted ensemble on the target.
+mode: msda
+run_name: model_adv00
+
+# data
+features_root: features
+sources: [hmdb51, ucf101]
+target: kinetics
+batch_size: 64
+num_workers: 4
+
+# model
+embed_dim: 256
+
+# optimisation
+lr: 0.001
+weight_decay: 0.0005
+steps: 5000
+log_every: 100
+eval_every: 500
+
+# adversarial term: scales the GRL lambda schedule (0..1 ramp)
+adversarial_weight: 0.0
+
+# extra objective: probability of dropping one source per step (0 = disabled)
+drop_prob: 0.0
+
+# misc
+seed: 42
+ckpt_dir: experiments/checkpoints
+ensemble_temperature: 0.1

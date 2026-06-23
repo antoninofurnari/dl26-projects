@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 resources/
 
 .venv/
@@ -13,4 +14,17 @@ experiments/checkpoints/
 
 *.log
 
+=======
+﻿__pycache__/
+*.pyc
+data/
+features/
+features_imagenet/
+weights/
+experiments/checkpoints/
+*.pt
+*.pth
+logs/
+.ipynb_checkpoints/
+>>>>>>> origin/risultati-finali
 .DS_Store
