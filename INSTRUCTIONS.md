@@ -47,7 +47,7 @@ This file contains the list of available projects, complete details for each pro
 | 19 | [Transformer vs RNN for Procedural Video Understanding](#project-19) | Advanced Sequential Modeling | Medium | EGO4D Goal-Step | BAT 🦇 (Backpropagation Attention Team) |
 | 20 | [Image & Language Representation Learning](#project-20) | Vision & Language | Medium | MS-COCO | G37 |
 | 21 | [Deep Reinforcement Learning for Frame Selection in Video](#project-21) | Reinforcement Learning | Large | UCF101 | G38 |
-| 22 | [Learn to Play Super Mario Bros with Deep Reinforcement Learning](#project-22) | Reinforcement Learning | Medium | Super Mario Bros Environment | G20 |
+| 22 | [Learn to Play Super Mario Bros with Deep Reinforcement Learning](#project-22) | Reinforcement Learning | Medium | Super Mario Bros Environment | G20, G41 |
 | 23 | [Align a Small LLM with GRPO for Strict Code or JSON Generation](#project-23) | Reinforcement Learning | Medium | Synthetic Logic Array | G23 |
 | 24 | [Cross-Modal Knowledge Distillation (Audio to Vision)](#project-24) | Knowledge Distillation | Large | VGGSound | Zero e Uno |
 | 25 | [Learn to Drive a car with Reinforcement Learning](#project-25) | Reinforcement Learning | Large | Assetto Corsa Gym | FiCo |
