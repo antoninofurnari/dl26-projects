@@ -1,0 +1,43 @@
+
+=== PANORAMICA GENERALE ===
+Segmenti train : 67,217
+Segmenti test  : 9,668
+Sessioni video totali referenziate : 633
+Partecipanti totali                : 34
+
+=== COME SI DIVIDONO GLI SPLIT ===
+In entrambi gli split : 30  -> ['P01', 'P02', 'P03', 'P04', 'P05', 'P06', 'P07', 'P08', 'P09', 'P10', 'P11', 'P12', 'P13', 'P14', 'P15', 'P16', 'P17','P19', 'P20', 'P21', 'P22', 'P23', 'P24', 'P25', 'P26', 'P27', 'P28', 'P29', 'P30', 'P31']
+Solo train            : 2
+Solo test             : 2
+
+=== TOP 15 PARTECIPANTI (per numero di clip) ===
+participant_id   presence  n_train_clips  n_test_clips  n_videos_to_download  clips_per_video  n_verb_classes  n_noun_classes
+    V      P22       both           9502          1230                    33            325.2              55             134
+           P04       both           7535           382                    53            149.4              84             169
+           P02       both           6664           449                    47            151.3              76             146
+           P01       both           5509           885                    27            236.8              60             129
+    V        P30       both           4497           607                    22            232.0              63             137
+           P03       both           3693           320                    47             85.4              61             128
+           P28       both           2668           402                    39             78.7              42             108
+           P35 train-only           2832             0                     7            404.6              36              81
+           P08       both           2024           626                    28             94.6              55             122
+           P26       both           2390           196                    61             42.4              37              70
+           P06       both           2050           208                    23             98.2              57              98
+           P11       both           1686           523                    31             71.3              49              99
+    V       P27       both           2094            64                    11            196.2              45              93
+           P25       both           1957            97                    18            114.1              31              59
+   V        P24       both           1457           347                     9            200.4              37              72
+
+===  SUBSET PRESO IN CONSIDERAZIONE ===
+participant_id presence  n_train_clips  n_test_clips  n_videos_to_download  clips_per_video  n_verb_classes  n_noun_classes
+       P22     both           9502          1230                    33            325.2              55             134
+       P30     both           4497           607                    22            232.0              63             137
+       P27     both           2094            64                    11            196.2              45              93
+       P24     both           1457           347                     9            200.4              37              72
+
+Clip totali nel subset : 19,789 (train 17,550 / test 2,248)
+
+Comando usato per un download ottimizzato:
+  parallel_download.py --participants P22 --workers 32
+
+Statistiche complete salvate in: participants_summary.csv

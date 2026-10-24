@@ -5,7 +5,7 @@ env/
 __pycache__/
 *.pyc
 
-data/
+/data/
 experiments/logs/
 experiments/checkpoints/
 
